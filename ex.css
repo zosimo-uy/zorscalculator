@@ -1,0 +1,121 @@
+html{
+  margin: 0px;
+  padding: 0 px;
+  height: 100%;
+}
+
+body{
+  align-items: center;
+  background-image: linear-gradient(rgba(255,255,255,0.35),
+  rgba(0,0,0,0.35)), url(matrix2.gif);
+  display: flex;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  height: inherit;
+}
+
+header{
+  border-radius: 16px;
+  box-shadow: 0 3px 15px rgba(45, 75, 35, 0.9);
+  color: #FFE15D;
+  background-color: #400E32;
+  font-family: inherit;
+  font-size: 35px;
+  padding: 3px 4px 2px 8px;
+  margin: 0px 0px 12px 0px;
+  /* background-color: inherit;
+  border-radius: inherit; */
+  width: max-content;
+}
+
+.calcase {
+  border: 1px solid rgba(45, 75, 123, 0.8);
+  width: max-content;
+  height: 550px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #FFED0025;
+  border: 2px solid #fff;
+  box-shadow: 5px 7px 20px #efe415;
+  flex-basis: 400px;
+}
+
+.screen{
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 400px;
+  text-align: right;
+  padding: 2px 4px 2px 0;
+  font-size: 35px;
+  border-radius: 15px;
+  overflow: auto;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.ecal-button-row{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.ecal-button{
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(4.5px);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(45, 75, 35, 0.9);
+  flex-basis: 20%;
+  font-family: inherit;
+  font-size: 28px;
+  height: 65px;
+  font-weight: 600;
+  background-color: #FFF;
+}
+
+.ecal-button:hover{
+  background-color: inherit;
+  color: rgba(255, 255, 0);
+  box-shadow: 0px 0px 25px #000;
+  font-weight: 900;
+}
+
+.ecal-button:active{
+  background-color: #51ff0033;
+  color: #1fcdf5;
+  box-shadow: 0px 0px 25px #20c8f3;
+  font-weight: 900;
+}
+
+.ecal-button:last-child{
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(4.5px);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 3px 30px rgba(45, 75, 35, 0.9);
+  color: #FFE15D;
+  background-color: #400E32;
+}
+
+.ecal-button:last-child:hover{
+  background-color: inherit;
+  color: rgba(255, 255, 0);
+  box-shadow: 0px 0px 25px #000;
+  font-weight: 900;
+}
+
+.ecal-button:last-child:active{
+  background-color: #51ff0033;
+  color: #1fcdf5;
+  box-shadow: 0px 0px 25px #20c8f3;
+}
+
+.double {
+  flex-basis: 47%;
+}
+
+.triple {
+  flex-basis: 74%;
+}
